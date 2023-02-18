@@ -41,5 +41,5 @@ To use this script, you can call the `chatgpt` function in your terminal. The fu
 $ chatgpt "How do I create a Python virtual environment?"
 ```
 
-###Acknowledgments
+### Acknowledgments
 This script was created using the OpenAI API and the openai Python library. Special thanks to the OpenAI team for making their technology available to the public!
