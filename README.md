@@ -38,7 +38,33 @@ To use this script, you can call the `chatgpt` function in your terminal. The fu
 
 ### Example Usage
 ```css
-$ chatgpt "How do I create a Python virtual environment?"
+$chatgpt "git revert last 3 commits"
+Calling OpenAI API with Text to a programmatic command query
+------------------------------------------------------------------------
+Example - git revert HEAD~3..HEAD
+------------------------------------------------------------------------
+```
+
+```css
+chatgpt "create a sql job in ssms" -r
+Calling OpenAI API with Raw query
+------------------------------------------------------------------------
+1. Open SQL Server Management Studio (SSMS).
+2. In the Object Explorer panel, expand the SQL Server Agent node, and then expand its child nodes: Jobs, Local, and Right-Click Jobs.
+3. Right-click Jobs, select New Job... from the context menu.
+4. In the New Job window, type a name for the new job.
+5. In the Category drop-down menu, choose a category for the job.
+6. In the Owner drop-down menu, select the owner of the job.
+7. Select the Steps page and click the New... button to create a new job step.
+8. In the New Job Step window, type a Step Name and select the type of job step.
+9. Select the appropriate box to specify what happens if the job fails or succeeds.
+10. Enter the command that should be executed when the job runs.
+11. Select the Schedules page and click the New... button to create a new schedule for the job.
+12. In the New Job Schedule window, type a name for the schedule, select the frequency of the job, and specify when the job should start.
+13. Click OK to close the job schedule window.
+14. Select the Notifications page and configure how you want to be notified when the job runs.
+15. Click OK to create the new job.
+------------------------------------------------------------------------
 ```
 
 ### Acknowledgments
