@@ -12,7 +12,7 @@ You can generate API keys in the OpenAI web interface. You can find your Secret 
 
 Install openai python library. 
 ```shell
-pip install openai
+python3 -m pip install openai
 ```
 
 Clone the script
@@ -27,7 +27,7 @@ echo 'function chatgpt {
     python3 $HOME/chatGPTFromTerminal/gpt_from_terminal.py $query $2
 }' >> ~/.zshrc
 ```
-
+Restart the terminal now.
 ## Usage
 
 To use this script, you can call the `chatgpt` function in your terminal. The function takes two arguments:
